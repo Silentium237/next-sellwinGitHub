@@ -8,7 +8,6 @@
 
 }
 .title {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -18,10 +17,8 @@
     text-align: center;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.9);
-
 }
 .subTitle {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -31,17 +28,14 @@
     text-transform: uppercase;
     color: #000000;
     padding: 10px;
-
 }
 .subTitle:hover {
-    /*border-bottom: 1.2px solid #56c5ff;*/
     text-decoration: underline;
     color: #56c5ff;
     cursor: pointer;
 
 }
 .footerText {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -53,7 +47,6 @@
     padding-top: 70px;
     padding-bottom: 70px;
     align-items: center;
-
     display: flex;
     margin: auto;
     text-align: left;
@@ -68,9 +61,7 @@
     margin-top: 20px;
 }
 .dropdownContent {
-
     position: absolute;
-//background-color: #f9f9f9;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;

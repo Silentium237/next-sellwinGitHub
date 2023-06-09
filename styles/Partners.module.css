@@ -1,35 +1,24 @@
 .winText {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 350px;
     line-height: 427px;
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
     text-transform: uppercase;
-
     background: linear-gradient(274.38deg, #38AAFF -28.26%, rgba(0, 146, 255, 0) 67.28%), rgba(0, 128, 223, 0.95);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
     text-fill-color: transparent;
     position: absolute;
     opacity: 0.03;
     margin-top: 100px;
-
 }
 .mainText {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    /* identical to box height, or 52px */
-
     text-transform: uppercase;
     padding-top: 120px;
     color: rgba(0, 0, 0, 0.9);

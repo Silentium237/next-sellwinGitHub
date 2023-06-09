@@ -6,17 +6,10 @@
     box-shadow: 0px -20px 50px rgba(178, 179, 179, 0.07), 0px 20px 50px rgba(178, 179, 179, 0.07);
 }
 .titleCardTechno {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
-    /* or 30px */
-
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
     text-align: center;
@@ -28,7 +21,6 @@
     padding-top: 30px;
 }
 .li {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -37,7 +29,6 @@
     margin-left: 92px;
     leading-trim: both;
     text-edge: cap;
-
     color: #000000;
 }
 .cardTechnologies {
@@ -47,7 +38,6 @@
     box-shadow: 0px -20px 50px rgba(178, 179, 179, 0.07), 0px 20px 50px rgba(178, 179, 179, 0.07);
 }
 .titleCardTechnologies {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -57,10 +47,8 @@
     text-edge: cap;
     text-transform: uppercase;
     color: #000000;
-
 }
 .subTitleCardTechnologies {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -71,14 +59,10 @@
     padding-left: 40px;
 }
 .buttonNext {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
-    /* identical to box height, or 16px */
-
-
     padding-left: 40px;
     position: absolute;
     padding-top: 80px;
@@ -98,6 +82,5 @@
     -webkit-transition: -webkit-transform 1600ms;
     transition: -webkit-transform 1600ms, transform 1600ms;
     -webkit-transform: scale(1);
-
     transform: scale(1);
 }

@@ -1,57 +1,30 @@
 
-
-
-
 .title {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    /* or 52px */
-
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
     text-transform: uppercase;
-
     color: #125E97;
 }
 .cardText {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 170%;
-    /* or 34px */
-
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
-
     color: #FFFFFF;
 }
 .subTitle {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 170%;
-    /* or 34px */
-
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
-
     color: #000000;
 }
 .textForTechnologies {
@@ -60,12 +33,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-    /* or 30px */
-
-    /* leading-trim and text-edge are draft CSS properties.
-
-    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-    */
     leading-trim: both;
     text-edge: cap;
     text-align: center;
@@ -77,5 +44,4 @@
     position: relative;
     justify-content: space-around;
     align-items: flex-start;
-
 }

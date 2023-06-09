@@ -34,7 +34,6 @@ $gray: rgba(0, 0, 0, 0.5);
   }
 
   &:placeholder-shown ~ .form__label {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -49,7 +48,6 @@ $gray: rgba(0, 0, 0, 0.5);
   top: 0;
   display: block;
   transition: 0.2s;
-  ont-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
