@@ -1,0 +1,278 @@
+
+
+.mainText1 {
+    position: absolute;
+    width: 624px;
+    height: 168px;
+    left: 26.56%;
+    right: 43.28%;
+    top: 257px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 130%;
+    /* or 84px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.mainText2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 130%;
+    position: absolute;
+    width: 624px;
+    height: 79px;
+    left: 26.56%;
+    right: 43.28%;
+    top: 352px;
+
+    color: #125E97
+}
+.subMainText {
+    position: absolute;
+    left: 26.56%;
+    right: 43.28%;
+    top: 460px;
+    bottom: 96.45%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 155%;
+    /* or 28px */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+
+    color: #FFFFFF;
+}
+.buttonConsult {
+    position: absolute;
+    width: 355px;
+    height: 70px;
+    left: 26.56%;
+    right: 43.28%;
+    top: 551px;
+    background: #125E97;
+    border: 0px;
+}
+.buttonConsult:hover {
+    background-color: #0089EF;
+}
+
+.buttonText {
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.numberActive {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 26.56%;
+    right: 43.28%;
+    top: 710px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    /* or 52px */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: uppercase;
+
+    color: #125E97;
+}
+.numberNotActive {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 28%;
+    right: 43.28%;
+    top: 710px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    /* or 52px */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.buttonLeft {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 68%;
+    top: 686px;
+    border: 0px;
+
+}
+.buttonLeft:hover {
+    background-color: #006DBF;
+}
+.buttonRight {
+    border: 0px;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    right: 22%;
+    top: 686px;
+}
+.buttonRight:hover {
+    background-color: #006DBF;
+}
+.divForForm {
+    position: absolute;
+    width: 1084px;
+    height: 215px;
+    left: 26%;
+    right: 43.28%;
+    top: 803px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -20px 50px rgba(178, 179, 179, 0.1), 0px 20px 50px rgba(178, 179, 179, 0.1);
+}
+
+.inputButton {
+    width: 300px;
+    height: 56px;
+    left: 1169px;
+    top: 902px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    border: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #0089EF;
+}
+.inputHeaderText {
+
+
+    padding-top: 60px;
+    padding-left: 58px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    /* or 22px */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+
+    color: #000000;
+}
+.textWhoWeAreMain {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    /* identical to box height, or 52px */
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    color: #125E97;
+}
+.subTextWhoWeAreMain {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    /* or 25px */
+
+    /* leading-trim and text-edge are draft CSS properties.
+
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.imgStyle {
+    position: absolute;
+    width: 440px;
+    height: 508px;
+    left: 26%;
+    top: 1108px;
+    z-index: 1;
+    background: linear-gradient(134.35deg, rgba(0, 146, 255, 0.5) -46.81%, #0080DF 39.75%);
+    opacity: 0.1;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.textSellwin {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    /* identical to box height, or 52px */
+
+    text-transform: uppercase;
+
+    color: #125E97;
+}
+.textSellwinDescription {
+    align-items: center;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    leading-trim: both;
+    text-edge: cap;
+
+    color: rgba(0, 0, 0, 0.9);
+}

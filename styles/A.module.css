@@ -1,0 +1,22 @@
+.link {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.link:hover {
+
+    border-bottom: 1.2px solid #56c5ff
+}

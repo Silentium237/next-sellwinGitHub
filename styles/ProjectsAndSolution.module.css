@@ -1,0 +1,42 @@
+.cardProject {
+    background: #FFFFFF;
+    box-shadow: 0px -20px 50px rgba(178, 179, 179, 0.07), 0px 20px 50px rgba(178, 179, 179, 0.07);
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 1084px;
+    height: 450px;
+    margin-top: 60px;
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    leading-trim: both;
+    text-edge: cap;
+    text-transform: uppercase;
+    color: #000000;
+}
+.subTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    leading-trim: both;
+    text-edge: cap;
+    color: rgba(0, 0, 0, 0.8);
+    width: 378px;
+}
+.nextButton {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+  
+    color: #006DBF;
+}
