@@ -3,8 +3,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     padding-top: 80px;
     color: rgba(0, 0, 0, 0.5);
@@ -14,8 +12,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     padding-top: 150px;
     color: #125E97;
@@ -38,8 +34,6 @@
     font-size: 16px;
     line-height: 20px;
     padding: 20px;
-    leading-trim: both;
-    text-edge: cap;
     color: #000000;
 }
 .cardStyle {
@@ -54,8 +48,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    leading-trim: both;
-    text-edge: cap;
     padding: 40px;
     color: #000000;
 }
@@ -64,8 +56,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     padding-left: 40px;
     color: rgba(0, 0, 0, 0.8);
 }

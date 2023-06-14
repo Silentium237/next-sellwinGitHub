@@ -42,12 +42,12 @@ export default function MainImg() {
             <div style={{backgroundImage: mainImg,
                 height: 900, backgroundRepeat: "no-repeat center center fixed",
                 width: "100%" ,margin: "auto",  backgroundSize: "cover", transition: "1s ease-out 0.5s", display: "flex"  }}>
-                <div style={{backgroundImage: "Url(/1773.svg)", paddingTop: 120}}>
+                <div style={{backgroundImage: "Url(/1773.svg)", paddingTop: 120, width: "100%"}}>
                     <img src="../1741.svg" style={{transform: rotate, transition: "1s ease-out 0.5s"}}/>
                 </div>
 
 
-                <div>
+                <div className={style.divMain}>
                     <p className={style.mainText1}>С НАМИ </p>
                     <p className={style.mainText2}>ВЫИГРЫВАЮТ!</p>
                     <p className={style.subMainText}>Полный цикд создания, масштабирования и поставки <br/>

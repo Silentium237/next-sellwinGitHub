@@ -47,7 +47,7 @@ export default function MainImgForAnotherPage() {
                 </div>
 
 
-                <div>
+                <div className={style.divMain}>
                     <p className={style.mainText1}>С НАМИ </p>
                     <p className={style.mainText2}>ВЫИГРЫВАЮТ!</p>
 

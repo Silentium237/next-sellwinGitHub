@@ -35,14 +35,15 @@ const Index = () => {
                          <span className={style.imgStyle}>
                          </span>
                         <span >
-                             <img src="../Group59.svg" style={{position: "absolute", top: 1300, zIndex: 0}} />
-                         <img src="../whyWeAre.png" style={{zIndex: 666}} />
 
+                         <img src="../whyWeAre.png" style={{zIndex: 2}} />
+                        <img src="../Group59.svg" style={{position: "absolute", zIndex: 1, left: 0}} />
                          </span>
                         <span style={{paddingLeft: 30}}>
                             <div className={style.textWhoWeAreMain}>
                                 Кто мы?
                             </div>
+
                             <br/>
                             <div className={style.subTextWhoWeAreMain}>
                                 Мы - молодая, динамично развивающаяся <br/>

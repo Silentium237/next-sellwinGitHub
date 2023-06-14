@@ -1,21 +1,17 @@
 .totalCardStyle {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     margin: auto;
     padding-top: 100px;
     width: 1084px;
-    margin: auto;
     align-items: start;
 }
 .ourValue {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
     padding-left: 400px;

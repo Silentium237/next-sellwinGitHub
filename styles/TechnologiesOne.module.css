@@ -14,8 +14,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
 }
@@ -24,8 +22,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
     padding-left: 22%;
@@ -36,8 +32,6 @@
     font-weight: 700;
     font-size: 150px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: rgba(0, 146, 255, 0.1);
     position: absolute;

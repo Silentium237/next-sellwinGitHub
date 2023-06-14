@@ -8,6 +8,8 @@ import style2 from "../styles/user.module.scss";
 import style from "../styles/Index.module.css";
 import styleTitle from "../styles/Service.module.css";
 import styleContact from "../styles/Contacts.module.css";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 
 export default function contact (){
@@ -62,46 +64,106 @@ export default function contact (){
             </div>
 
             <div className={styleContact.backgroundSendForm} style={{paddingTop: 150, marginTop: 150}}>
-                <img style={{position: "absolute", paddingTop: 100}} src="../Group59.svg"/>
-                <div className={styleContact.sendFormCard}>
-                    <form  >
+                <img style={{position: "absolute", paddingTop: 100, width: "100%"}} src="../Group59.svg"/>
+                <div className={styleContact.sendFormCard} >
 
-                        <div style={{paddingTop: 90, paddingLeft: 60}}>
-                            <span  className={style2.form__group} style={{paddingBottom: 20, paddingRight: 60}}>
-                                <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>
-                                <label style={{paddingLeft: 20, marginTop: -10}} htmlFor="name" className={style2.form__label}>Имя*</label>
-                            </span>
-                            <span className={style2.form__group} style={{paddingBottom: 20}}>
-                                <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>
-                                <label  style={{paddingLeft: 440, marginTop: -10}} htmlFor="name" className={style2.form__label}>Email*</label>
-                            </span>
+                    <Box
+                        component="form"
+                        sx={{
+                            '& .MuiTextField-root': { m: 1, width: '40ch', marginLeft: 10, marginTop: 5 },
+                        }}
+                        noValidate
+                        autoComplete="off"
+                    >
+                        <div>
+                            <TextField
+                                id="standard-textarea"
+                                label="Имя*"
+                                placeholder="Ваше имя"
+                                multiline
+                                variant="standard"
+                            />
+                            <TextField
+                                id="standard-textarea"
+                                label="Email*"
+                                placeholder="Ваш email"
+                                multiline
+                                variant="standard"
+                            />
                         </div>
-                        <div style={{paddingTop: 60, paddingLeft: 60}}>
-                            <span className={style2.form__group} style={{paddingBottom: 20, paddingRight: 60}}>
-                                <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>
-                                <label  style={{paddingLeft: 20, marginTop: -10}} htmlFor="name" className={style2.form__label}>Email*</label>
-                            </span>
-                            <span className={style2.form__group}  style={{paddingBottom: 60}}>
-                                <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>
-                                <label  style={{paddingLeft: 440, marginTop: -10}} htmlFor="name" className={style2.form__label}>Телефон*</label>
-                            </span>
+                        <div>
+                            <TextField
+                                id="standard-textarea"
+                                label="Имя*"
+                                placeholder="Ваше имя"
+                                multiline
+                                variant="standard"
+                            />
+                            <TextField
+                                id="standard-textarea"
+                                label="Email*"
+                                placeholder="Ваш email"
+                                multiline
+                                variant="standard"
+                            />
                         </div>
-                        <div style={{paddingTop: 60, paddingLeft: 60}}>
-                            <span className={style2.form__group}  style={{paddingBottom: 60}}>
-                                <input style={{width: 800, height: 185, border: "1px solid rgba(0, 0, 0, 0.2)"}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>
-                                <label  style={{paddingLeft: 20 ,position: "absolute", top: -70 }} htmlFor="name" className={style2.form__label}  >Текст сообщения*</label>
-                            </span>
+                        <div>
+                            <TextField
+                                style={{width: 800, marginTop: 100}}
+                                id="outlined-multiline-static"
+                                label="Текст сообщения"
+                                multiline
+                                rows={4}
+
+                            />
 
                         </div>
 
 
+                            <button style={{width: 295, marginLeft: 580, marginTop: 18}} className={style.inputButton}>
+                                отправить
+                            </button>
+                    </Box>
 
 
-                        <button style={{width: 295, marginLeft: 565, marginTop: 18}} className={style.inputButton}>
-                            отправить
-                        </button>
+                    {/*<form  >*/}
 
-                    </form>
+                    {/*    <div style={{paddingTop: 90, paddingLeft: 60}}>*/}
+                    {/*        <span  className={style2.form__group} style={{paddingBottom: 20, paddingRight: 60}}>*/}
+                    {/*            <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>*/}
+                    {/*            <label style={{paddingLeft: 20, marginTop: -10}} htmlFor="name" className={style2.form__label}>Имя*</label>*/}
+                    {/*        </span>*/}
+                    {/*        <span className={style2.form__group} style={{paddingBottom: 20}}>*/}
+                    {/*            <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>*/}
+                    {/*            <label  style={{paddingLeft: 440, marginTop: -10}} htmlFor="name" className={style2.form__label}>Email*</label>*/}
+                    {/*        </span>*/}
+                    {/*    </div>*/}
+                    {/*    <div style={{paddingTop: 60, paddingLeft: 60}}>*/}
+                    {/*        <span className={style2.form__group} style={{paddingBottom: 20, paddingRight: 60}}>*/}
+                    {/*            <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>*/}
+                    {/*            <label  style={{paddingLeft: 20, marginTop: -10}} htmlFor="name" className={style2.form__label}>Email*</label>*/}
+                    {/*        </span>*/}
+                    {/*        <span className={style2.form__group}  style={{paddingBottom: 60}}>*/}
+                    {/*            <input style={{width: 348}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>*/}
+                    {/*            <label  style={{paddingLeft: 440, marginTop: -10}} htmlFor="name" className={style2.form__label}>Телефон*</label>*/}
+                    {/*        </span>*/}
+                    {/*    </div>*/}
+                    {/*    <div style={{paddingTop: 60, paddingLeft: 60}}>*/}
+                    {/*        <span className={style2.form__group}  style={{paddingBottom: 60}}>*/}
+                    {/*            <input style={{width: 800, height: 185, border: "1px solid rgba(0, 0, 0, 0.2)"}} type="input" className={style2.form__field} placeholder="Name" name="name" id='name' required/>*/}
+                    {/*            <label  style={{paddingLeft: 20 ,position: "absolute", top: -70 }} htmlFor="name" className={style2.form__label}  >Текст сообщения*</label>*/}
+                    {/*        </span>*/}
+
+                    {/*    </div>*/}
+
+
+
+
+                    {/*    <button style={{width: 295, marginLeft: 565, marginTop: 18}} className={style.inputButton}>*/}
+                    {/*        отправить*/}
+                    {/*    </button>*/}
+
+                    {/*</form>*/}
                 </div>
             </div>
 

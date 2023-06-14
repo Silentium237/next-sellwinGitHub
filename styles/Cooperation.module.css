@@ -3,8 +3,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
     padding-left: 400px;
@@ -23,8 +21,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 155%;
-    leading-trim: both;
-    text-edge: cap;
     width: 292px;
     color: rgba(0, 0, 0, 0.8);
 }

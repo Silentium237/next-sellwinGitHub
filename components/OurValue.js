@@ -1,5 +1,5 @@
 
-import style from "../styles/OurValue.module.css"
+import styleOurValue from "../styles/OurValue.module.css"
 
 
 export default function OurValue() {
@@ -41,19 +41,19 @@ export default function OurValue() {
 
     return (
         <>
-            <div className={style.ourValue}>
+            <div className={styleOurValue.ourValue}>
                 Наши ценности
             </div>
-            <div className={style.totalCardStyle}>
+            <div className={styleOurValue.totalCardStyle}>
 
                 {cardText.map((item,index) => (
 
-                    <div style={index === 5 ? {opacity: 0} : null} className={style.cardStyle}>
+                    <div key={index} style={index === 5 ? {opacity: 0} : null} className={styleOurValue.cardStyle}>
                         <img style={{marginTop: -30, marginLeft: 20}} src={item.url}/>
-                        <div className={style.title}>
+                        <div className={styleOurValue.title}>
                             {item.title}
                         </div>
-                        <div className={style.subTitle} >
+                        <div className={styleOurValue.subTitle} >
                             {item.text}
                         </div>
                     </div>

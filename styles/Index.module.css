@@ -1,10 +1,22 @@
-.mainText1 {
+.divMain {
+    width: 100%;
     position: absolute;
-    width: 624px;
-    height: 168px;
-    left: 26.56%;
-    right: 43.28%;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: auto;
+    text-align: left;
     top: 257px;
+    padding-left: calc(18px + (600 - 18) * (100vw - 800px) / (1900 - 600));
+}
+
+.mainText1 {
+    /*position: absolute;*/
+    /*width: 624px;*/
+    /*height: 168px;*/
+    /*left: 26.56%;*/
+    /*right: 43.28%;*/
+    /*top: 257px;*/
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
@@ -17,26 +29,24 @@
     font-weight: 700;
     font-size: 65px;
     line-height: 130%;
-    position: absolute;
-    width: 624px;
-    height: 79px;
-    left: 26.56%;
-    right: 43.28%;
-    top: 352px;
+    /*position: absolute;*/
+    /*width: 624px;*/
+    /*height: 79px;*/
+    /*left: 26.56%;*/
+    /*right: 43.28%;*/
+    /*top: 352px;*/
     color: #125E97
 }
 .subMainText {
-    position: absolute;
-    left: 26.56%;
-    right: 43.28%;
-    top: 460px;
-    bottom: 96.45%;
+    /*position: absolute;*/
+    /*left: 26.56%;*/
+    /*right: 43.28%;*/
+    /*top: 460px;*/
+    /*bottom: 96.45%;*/
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 155%;
-    leading-trim: both;
-    text-edge: cap;
     color: #FFFFFF;
 }
 .buttonConsult {
@@ -73,8 +83,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
 }
@@ -89,8 +97,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -98,7 +104,7 @@
     position: absolute;
     width: 72px;
     height: 72px;
-    left: 68%;
+    right: 30%;
     top: 686px;
     border: 0px;
 }
@@ -122,10 +128,9 @@
 
 .divForForm {
     position: absolute;
-    width: 1084px;
+    width: calc(768px + (1084 - 768) * (100vw - 768px) / (1900 - 768));
     height: 215px;
-    left: 26%;
-    right: 43.28%;
+    margin-left: calc(18px + (600 - 18) * (100vw - 800px) / (1900 - 600));
     top: 803px;
     background: #FFFFFF;
     box-shadow: 0px -20px 50px rgba(178, 179, 179, 0.1), 0px 20px 50px rgba(178, 179, 179, 0.1);
@@ -134,8 +139,8 @@
 .inputButton {
     width: 300px;
     height: 56px;
-    left: 1169px;
-    top: 902px;
+
+    margin-left: 40px;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -153,8 +158,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 135%;
-    leading-trim: both;
-    text-edge: cap;
     color: #000000;
 }
 .textWhoWeAreMain {
@@ -171,8 +174,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 155%;
-    leading-trim: both;
-    text-edge: cap;
     color: rgba(0, 0, 0, 0.8);
 }
 .imgStyle {
@@ -204,7 +205,5 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 170%;
-    leading-trim: both;
-    text-edge: cap;
     color: rgba(0, 0, 0, 0.9);
 }

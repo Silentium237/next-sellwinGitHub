@@ -4,8 +4,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-transform: uppercase;
     color: #125E97;
 }
@@ -14,8 +12,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 170%;
-    leading-trim: both;
-    text-edge: cap;
     color: #FFFFFF;
 }
 .subTitle {
@@ -23,18 +19,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 170%;
-    leading-trim: both;
-    text-edge: cap;
     color: #000000;
 }
 .textForTechnologies {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
-    leading-trim: both;
-    text-edge: cap;
     text-align: center;
     text-transform: uppercase;
     background-color: rgba(0, 137, 239, 0.05);;
